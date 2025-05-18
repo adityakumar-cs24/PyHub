@@ -1,0 +1,13 @@
+collection = {1,2,3,4,5}
+print(collection)
+print(collection.pop()) 
+collection.add(6)
+print(collection)
+collection.add("ADITYA")
+collection.add((1,2,3))
+collection.add(("Kumar","Pandey"))
+print(collection)
+collection.remove("ADITYA")
+print(collection)
+collection.clear()
+print(collection)

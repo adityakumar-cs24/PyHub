@@ -1,0 +1,7 @@
+f = open("/Users/adityapandey/PYTHON/FILE_I/O/demo.txt","r")
+data = f.read()
+# data = f.read(5)
+# line1 = f.readline()
+print(data)
+# print(line1)
+f.close()

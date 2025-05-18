@@ -1,0 +1,5 @@
+f = open("/Users/adityapandey/PYTHON/BASIC_PYTHON/helloworld.py","r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
